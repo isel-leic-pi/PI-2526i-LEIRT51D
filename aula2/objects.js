@@ -24,6 +24,8 @@ function createStudent(name, number){
 const std2 = createStudent("joao", 12334)
 console.log(std2)
 
+
+
 function showProps(obj)
 {
     for(let p in obj)
