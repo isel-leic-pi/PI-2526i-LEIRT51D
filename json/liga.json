@@ -1,82 +1,82 @@
 [
   {
-    "clube": "FC Porto",
-    "pontos": 15,
-    "golos": 12
+    "team": "FC Porto",
+    "points": 15,
+    "goals": 12
   },
   {
-    "clube": "Sporting CP",
-    "pontos": 12,
-    "golos": 15
+    "team": "Sporting CP",
+    "points": 12,
+    "goals": 15
   },
   {
-    "clube": "Moreirense",
-    "pontos": 12,
-    "golos": 8
+    "team": "Moreirense",
+    "points": 12,
+    "goals": 8
   },
   {
-    "clube": "FC Famalicão",
-    "pontos": 10,
-    "golos": 6
+    "team": "Benfica",
+    "points": 10,
+    "goals": 7
   },
   {
-    "clube": "Gil Vicente",
-    "pontos": 10,
-    "golos": 5
+    "team": "FC Famalicão",
+    "points": 10,
+    "goals": 6
   },
   {
-    "clube": "Benfica",
-    "pontos": 10,
-    "golos": 7
+    "team": "Gil Vicente",
+    "points": 10,
+    "goals": 5
   },
   {
-    "clube": "SC Braga",
-    "pontos": 8,
-    "golos": 10
+    "team": "SC Braga",
+    "points": 8,
+    "goals": 10
   },
   {
-    "clube": "Guimarães",
-    "pontos": 7,
-    "golos": 4
+    "team": "Vitória SC",
+    "points": 7,
+    "goals": 4
   },
   {
-    "clube": "Casa Pia",
-    "pontos": 6,
-    "golos": 4
+    "team": "Casa Pia",
+    "points": 6,
+    "goals": 4
   },
   {
-    "clube": "Santa Clara",
-    "pontos": 5,
-    "golos": 2
+    "team": "Estoril Praia",
+    "points": 5,
+    "goals": 4
   },
   {
-    "clube": "Estoril Praia",
-    "pontos": 5,
-    "golos": 4
+    "team": "Santa Clara",
+    "points": 5,
+    "goals": 2
   },
   {
-    "clube": "Arouca",
-    "pontos": 5,
-    "golos": 6
+    "team": "Arouca",
+    "points": 5,
+    "goals": 6
   },
   {
-    "clube": "Estrela da Amadora",
-    "pontos": 3,
-    "golos": 3
+    "team": "Estrela da Amadora",
+    "points": 3,
+    "goals": 3
   },
   {
-    "clube": "Marítimo",
-    "pontos": 3,
-    "golos": 3
+    "team": "Marítimo",
+    "points": 3,
+    "goals": 3
   },
   {
-    "clube": "Vizela",
-    "pontos": 1,
-    "golos": 1
+    "team": "Vizela",
+    "points": 1,
+    "goals": 1
   },
   {
-    "clube": "Farense",
-    "pontos": 0,
-    "golos": 0
+    "team": "Farense",
+    "points": 0,
+    "goals": 0
   }
 ]
