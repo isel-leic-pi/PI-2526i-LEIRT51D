@@ -30,5 +30,14 @@ function f2(p1, p2){
 f2.call(std,1,2)
 f2.apply(std,[1,2])
 
+function changeConsoleLog(){
+
+
+}
+
+changeConsoleLog()
+
+console.log("X")
+
 
 

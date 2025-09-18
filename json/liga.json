@@ -1,0 +1,82 @@
+[
+  {
+    "clube": "FC Porto",
+    "pontos": 15,
+    "golos": 12
+  },
+  {
+    "clube": "Sporting CP",
+    "pontos": 12,
+    "golos": 15
+  },
+  {
+    "clube": "Moreirense",
+    "pontos": 12,
+    "golos": 8
+  },
+  {
+    "clube": "FC Famalicão",
+    "pontos": 10,
+    "golos": 6
+  },
+  {
+    "clube": "Gil Vicente",
+    "pontos": 10,
+    "golos": 5
+  },
+  {
+    "clube": "Benfica",
+    "pontos": 10,
+    "golos": 7
+  },
+  {
+    "clube": "SC Braga",
+    "pontos": 8,
+    "golos": 10
+  },
+  {
+    "clube": "Guimarães",
+    "pontos": 7,
+    "golos": 4
+  },
+  {
+    "clube": "Casa Pia",
+    "pontos": 6,
+    "golos": 4
+  },
+  {
+    "clube": "Santa Clara",
+    "pontos": 5,
+    "golos": 2
+  },
+  {
+    "clube": "Estoril Praia",
+    "pontos": 5,
+    "golos": 4
+  },
+  {
+    "clube": "Arouca",
+    "pontos": 5,
+    "golos": 6
+  },
+  {
+    "clube": "Estrela da Amadora",
+    "pontos": 3,
+    "golos": 3
+  },
+  {
+    "clube": "Marítimo",
+    "pontos": 3,
+    "golos": 3
+  },
+  {
+    "clube": "Vizela",
+    "pontos": 1,
+    "golos": 1
+  },
+  {
+    "clube": "Farense",
+    "pontos": 0,
+    "golos": 0
+  }
+]
