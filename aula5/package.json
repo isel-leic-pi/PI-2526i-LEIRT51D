@@ -1,0 +1,15 @@
+{
+  "name": "pi-2526i-leirt51d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { "test": "mocha"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.2"
+  }
+}
