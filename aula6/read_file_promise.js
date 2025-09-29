@@ -13,8 +13,11 @@ const readPromise = fs.readFile("file1.txt")
 console.log(readPromise)
 
 readPromise
-    .then(data => console.log(data.toString()))
+    .then(data => fs.writeFile("file2.txt", data))
+    .then(()=> console.log("SUCCESS"))
     .catch(error => console.log("ERROR",error))
+    .then(()=>console.log("DONE"))
+
     
 console.log("DONE REALLY?1")
 console.log("DONE REALLY?2")

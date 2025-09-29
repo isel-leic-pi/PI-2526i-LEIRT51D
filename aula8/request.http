@@ -1,0 +1,13 @@
+GET https://httpbin.org/delay/1
+
+
+
+###
+
+GET https://httpbin.org/delay/2
+
+###
+
+GET http://api.football-data.org/v4/teams/1903
+X-Auth-Token : 406131604e064bb1899a2b0c7ebd60b7
+

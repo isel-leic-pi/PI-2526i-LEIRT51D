@@ -12,5 +12,9 @@ describe('Operations Test', () => {
         expect(div(6, 2)).to.equal(3);
       });
     
+     it('throw Error', () => {
+        expect(()=>throwError()).to.throw('Throw Error');
+      });
+    
     
 });
