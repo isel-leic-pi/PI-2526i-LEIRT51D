@@ -1,0 +1,16 @@
+GET http://localhost:8080/
+
+###
+GET http://localhost:8080/students?limit=3
+###
+GET http://localhost:8080/students/1903
+
+###
+
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+    "name" : "Filipe",
+    "number" : 1234
+}
