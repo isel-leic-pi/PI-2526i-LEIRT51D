@@ -1,0 +1,6 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/path
+Authorization: 1287917291
