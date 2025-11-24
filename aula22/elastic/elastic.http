@@ -1,0 +1,66 @@
+GET http://localhost:9200/_cat/indices
+
+###
+
+GET http://localhost:9200/_all
+
+###
+
+PUT http://localhost:9200/books
+
+###
+
+GET http://localhost:9200/books
+
+###
+
+DELETE http://localhost:9200/books
+
+###
+
+GET http://localhost:9200/books/_search
+
+###
+
+
+POST  http://localhost:9200/books/_doc
+Content-Type: application/json
+
+{ 
+    "name" : "Software Development 1",
+    "author" : "Jonh"
+}
+
+###
+
+PUT  http://localhost:9200/books/_doc/b01
+Content-Type: application/json
+
+{ 
+    "name" : "Web Programming",
+    "author" : "Mary"
+}
+
+###
+
+GET http://localhost:9200/books/_doc/b01
+
+###
+
+DELETE http://localhost:9200/books/_doc/b01
+
+###
+
+POST  http://localhost:9200/books/_doc?refresh=wait_for
+Content-Type: application/json
+
+{ 
+    "name" : "Software Development 2",
+    "author" : "Jonh"
+}
+
+###
+
+GET http://localhost:9200/books/_search?q=author:"Jonh"
+
+###

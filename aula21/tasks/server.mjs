@@ -5,15 +5,18 @@ import webui from './tasks-web-ui.mjs'
 const app = express()
 
 app.use(express.json())
+app.use(express.urlencoded({extended : false}))
 
+app.set('view engine', 'hbs');
 
 app.get("/api/tasks", webapi.getTasks)
 app.get("/api/tasks/:taskId", webapi.getTaskById)
 app.post("/api/tasks", webapi.createTask)
 
 app.get("/", webui.home)
-//app.get("/tasks", webui.getTasks)
+app.get("/tasks", webui.getTasks)
 app.get("/tasks/:taskId", webui.getTaskById)
-
+app.post("/tasks", webui.createTask)
+app.get("/createTask", webui.createTaskView)
 
 app.listen(8080, ()=>console.log("Listening..."))
