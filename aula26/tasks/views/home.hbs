@@ -1,0 +1,11 @@
+{{#if username}}
+    <form method="post" action="/logout">
+        <input type="submit" value="Logout">
+        Username : {{username}}
+    </form>
+{{else}}
+    <a href="/login"> Login </a>
+{{/if}}
+
+<h1>Tasks</h1>
+<p>Application</p>

@@ -1,0 +1,21 @@
+<a href="/createTask"> Create Task </a>
+
+<table class="table table-bordered border-primary">
+    <tr>
+        <th>ID</th>
+        <th>Text</th>
+        <th></th>
+    </tr>
+    {{#each tasks}}
+    <tr>
+        <td><a href="/tasks/{{id}}"> {{id}} </a></td>
+        <td>{{text}}</td>
+        <th>
+            <form method="POST" action="/tasks/{{id}}/delete">
+                <input type="submit" value="Delete" />
+            </form>
+        </th>
+    </tr>
+    {{/each}}
+
+</table>
