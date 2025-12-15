@@ -25,6 +25,8 @@ app.use(passport.session())
 passport.serializeUser((user, done) => done(null, user))
 passport.deserializeUser((user, done) => done(null, user))
 
+app.use(authorizationMw)
+
 app.use(express.json())
 app.use(express.urlencoded({extended : false}))
 app.use(express.static('public'))
@@ -47,5 +49,17 @@ app.post("/tasks", webui.createTask)
 app.post("/tasks/:id/delete", webui.deleteTask)
 app.get("/createTask", webui.createTaskView)
 app.get("/tasks/:taskId/update", webui.updateTaskView)
+
+function authorizationMw(req, rsp, next) {
+    console.log('authorizationMw', req.get('Authorization'))
+    if(req.get('Authorization')){
+            req.user = {
+            token: req.get('Authorization').split(' ')[1]
+        }
+        
+    }
+    next()
+}
+
 
 app.listen(8080, ()=>console.log("Listening..."))
